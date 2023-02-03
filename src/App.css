@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: gray;
 }
 
 .App-logo {
@@ -35,4 +36,37 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.countries-container{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  grid-gap:10px;
+  border-radius:50px;
+}
+.country{
+  margin:20px;
+  padding:10px;
+  background-color:pink;
+  box-shadow: 5px 2px rgb(82, 82, 77);
+  border-radius:50px;
+  
+
+}
+.countries-container :hover{
+  background-color:blue;
+  color:white;
+  transition:.7s linear;
+}
+.country img{
+  width:150px;
+}
+.Hello{
+  border:3px solid yellow;
+  width:50%;
+  margin-left:25%;
+  color:white;
+  background-color:black;
+  border-radius:50px;
 }
